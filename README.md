@@ -7,14 +7,14 @@ A Kotlin-based blackjack simulator for analyzing game strategies and player beha
 
 ## Features
 
-- Multi-player blackjack simulation with configurable rules
-- Real-time statistics tracking 
-- Event-driven architecture
+- Multi player blackjack simulation with configurable rules
+- Real time statistics tracking 
+- Event driven architecture
 - Modular deck and card system with automatic shuffling
 
 ## TODO
 - Betting system with customizable balances
-- RL-Based player agents:
+- RL Based player agents:
   - QLearn & MCTS
 
  
