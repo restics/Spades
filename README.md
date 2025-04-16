@@ -13,7 +13,7 @@ A Kotlin-based Blackjack simulator for analyzing game strategies and player beha
 - Modular deck and card system with automatic shuffling
 
 ## TODO
-- Betting system with customizable bankrolls
+- Betting system with customizable balances
 - RL-Based Player Agents:
   - QLearn & MCTS
 
