@@ -51,6 +51,7 @@ class Dealer : Player("dealer") {
 
 }
 
+// TODO
 class CardCounter(i: Int) : Player(i.toString()) {
     var count = 0;
     override fun decision(playerCards: List<Card>, shown: Card) : Decision {
@@ -65,6 +66,24 @@ class RandomPlayer(i: Int) : Player(i.toString()) {
         return if (Random.nextInt(0,2) == 0) Decision.HIT else Decision.STAND
     }
 }
+
+
+// TODO
+class QLearnPlayer(i: Int) : Player(i.toString()) {
+    var count = 0;
+
+    @BlackJackListener
+    fun onDealerShuffle(e: ShuffledDeckEvent){
+
+    }
+
+
+    override fun decision(playerCards: List<Card>, shown: Card) : Decision {
+        return if (Random.nextInt(0,2) == 0) Decision.HIT else Decision.STAND
+    }
+}
+
+
 
 class InputPlayer(i: String) : Player(i.toString()) {
     override fun decision(playerCards: List<Card>, shown: Card) : Decision {
