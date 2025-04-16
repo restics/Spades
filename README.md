@@ -29,5 +29,5 @@ A Kotlin-based Blackjack simulator for analyzing game strategies and player beha
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/blackjack-simulation.git
+git clone https://github.com/restics/Spades.git
 cd blackjack-simulation
