@@ -3,7 +3,7 @@
 [![Kotlin Version](https://img.shields.io/badge/Kotlin-2.0.20-blue.svg)](https://kotlinlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Kotlin-based Blackjack simulator for analyzing game strategies and player behavior through statistical modeling.
+A Kotlin-based blackjack simulator for analyzing game strategies and player behavior through statistical modeling.
 
 ## Features
 
